@@ -27,6 +27,9 @@
         <tbody>
         </tbody>
       </table>
+
+      <p *ngFor="let b of brandCounts | keyvalue">{{ b.key }}: {{ b.value }}</p>
+
     </div>
   </div>
 </tbody>
